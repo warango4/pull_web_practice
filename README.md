@@ -1,3 +1,3 @@
-# Git web practice
+# Pull web practice
 
 * TODO: [Instrucciones]()
