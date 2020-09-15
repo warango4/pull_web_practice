@@ -12,19 +12,24 @@
 	</HEAD>
 	<BODY LANG="es-ES" class="container text-center">
 		<H1>
-			<IMG ID="imagen1" SRC="../imagenes/BD7.gif" NAME="Imagen1" ALIGN=CENTER WIDTH=700 HEIGHT=50><BR CLEAR=LEFT><BR><BR>
+			<IMG ID="imagen" SRC="../imagenes/BD7.gif" NAME="Imagen1" ALIGN=CENTER WIDTH=700 HEIGHT=50><BR CLEAR=LEFT><BR><BR>
 		</H1>
-		<H1 ID="titulo1">Mi septima página HTML</H1>
-		<P>
-			<BR><BR>
-		</P>
+		<H1 ID="titulo" onclick ="textContext()">Mi septima página HTML</H1>
+
 		<div class="row text-center">
 			<div class="col-md-6">
-				<span>&larr;</span><A HREF="pagina0.html">Mi página cero HTML</A>
+				<span>&larr;</span><A HREF="pagina6.html">Mi sexta página HTML</A>
 			</div>
 			<div class="col-md-6">
-				<A ID="enlace1" HREF="pagina6.html">Mi sexta página HTML</A><span>&rarr;</span>
+				<A ID="enlace" HREF="pagina1.html" >Mi primer página HTML</A><span>&rarr;</span>
 			</div>
 		</div>
+		<P></P>
+		<script>
+            function textContext() {
+                document.getElementById("titulo").textContent
+                = "Bienvenido a la página 7";
+            }
+        </script>
 	</BODY>
 </HTML>
