@@ -14,12 +14,15 @@
                 <H1>
                         <IMG ID="imagen5" SRC="../imagenes/BD1.gif" NAME="Imagen1" ALIGN=CENTER WIDTH=700 HEIGHT=50><BR CLEAR=LEFT><BR><BR>
                 </H1>
+                <h1 id="titulo"></h1>
                 <!--
                         <H1 ID="titulo5">Mi primera página HTML</H1>
                 <P>
                         <BR><BR>
                 </P>
                 -->
+                <img id="imagen" src="../imagenes/BD4.gif" />
+                <a id="enlace" href="/"></a>
                 <div class="row text-center">
                         <div class="col-md-6">
                                 <span>&larr;</span><A HREF="pagina4.html">Mi cuarta página HTML</A>
@@ -30,4 +33,8 @@
                 </div>
                 <P></P>
         </BODY>
+        <script>
+            document.getElementById('titulo').textContent = 'Este es el titulo'
+            documento.getElementById('enlace').textContent = 'Esta es una imagen'
+        </script>
 </HTML>
