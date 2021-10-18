@@ -15,7 +15,7 @@
                         <IMG ID="imagen5" SRC="../imagenes/BD20.gif" NAME="Imagen1" ALIGN=CENTER WIDTH=700 HEIGHT=50><BR CLEAR=LEFT><BR><BR>
                 </H1>
                 
-                        <H1 ID="titulo5">Mi primera página HTML</H1>
+                        <H1 ID="titulo5" onclick ="textContext()">Mi primera página HTML</H1>
                 <P>
                         <BR><BR>
                 </P>
@@ -28,5 +28,11 @@
                         </div>
                 </div>
                 <P></P>
+				<script>
+            function textContext() {
+                document.getElementById("titulo").textContent
+                = "Bienvenido a la página 20";
+            }
+        </script>
         </BODY>
 </HTML>
